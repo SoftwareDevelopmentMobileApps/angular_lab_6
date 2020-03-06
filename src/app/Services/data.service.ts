@@ -14,6 +14,6 @@ export class DataService {
   }
 
   GetWeatherData():Observable<any>{
-    return this.http.get('http://api.openweathermap.org/data/2.5/weather?q=Galway&APPID=6a66416403ed8e5e6e762cb8c261f303')
+    return this.http.get('http://api.openweathermap.org/data/2.5/weather?q=Galway&APPID=1111111111')
   }
 }
